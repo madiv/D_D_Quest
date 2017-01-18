@@ -10,6 +10,8 @@ namespace D_D_Quest
     {
         static void Main(string[] args)
         {
+            var hero = new Hero();
+            Console.WriteLine(hero.Health);
         }
     }
 }
